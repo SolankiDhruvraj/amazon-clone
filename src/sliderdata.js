@@ -1,0 +1,26 @@
+export const sliderData = [
+  {
+    image:
+      "./ringofpower.webp",
+  },
+  {
+    image:
+      "./phonecover.webp",
+  },
+  {
+    image:
+      "./amazonpay.webp",
+  },
+  {
+    image:
+      "./shoes.webp",
+  },
+  {
+    image:
+      "./tide.webp",
+  },
+  {
+    image:
+      "./watch.webp",
+  }
+];

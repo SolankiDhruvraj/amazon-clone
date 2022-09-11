@@ -1,0 +1,95 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBar {
+    background-color: #0F1111;
+    display: flex;
+    height: 4em;
+    width: 100%;
+    align-items: center;
+    /* position: fixed; */
+
+}
+
+.logoimg {
+    margin-left: 15px;
+    margin-right: 5em;
+    height: 2em;
+    width: 6em;
+
+}
+
+.searchicon {
+    height: 1.5em;
+    width: 1.5em;
+    margin-top: 4px;
+    margin-left: 4px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-right: 5em;
+}
+
+.searchinput {
+    height: 2em;
+    width: 30em;
+    padding-left: 10px;
+}
+
+.searchiconbg {
+    height: 1.9em;
+    width: 2em;
+    margin-right: 8em;
+    background-color: #f0c14b;
+}
+
+.options {
+    display: flex;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.ordersandretuns {
+    margin: 0px 5em;
+}
+
+.cart {
+    height: 2.5em;
+    width: 2.5em;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.cartName {
+    color: white;
+    margin: 0px 10px;
+}
+
+.slider {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    position: absolute;
+    top: 4em;
+    width: 100%;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: all 0.5 ease;
+
+}
+
+.current {
+    opacity: 0;
+    transform: translateX(0);
+}
